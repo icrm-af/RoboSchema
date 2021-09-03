@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "EF-SQL",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "gd-useas-mssql-bi01.database.windows.net",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "EF-PRD-BI",
+            "database": "EF-PRD-BI",
+            "username": "EFBIReader"
+        }
+    ]
+}
